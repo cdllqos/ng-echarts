@@ -16,6 +16,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "lt-echarts": [
+        "dist/lt-echarts"
+      ],
+      "lt-echarts/*": [
+        "dist/lt-echarts/*"
+      ]
+    }
   }
 }
