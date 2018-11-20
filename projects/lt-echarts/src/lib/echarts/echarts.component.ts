@@ -9,6 +9,10 @@ import { debounceTime } from 'rxjs/operators';
   styleUrls: ['./echarts.component.scss'],
 })
 export class EchartsComponent implements OnInit, OnDestroy {
+  private container: HTMLElement;
+  private chart: any;
+  private innerOptions: any;
+
   @Input()
   get ltOptions() {
     return this.innerOptions;
@@ -17,11 +21,8 @@ export class EchartsComponent implements OnInit, OnDestroy {
     this.innerOptions = val;
     this.resize$.next(null);
   }
-  @Input() ltAutoResize = true;
 
-  private container: HTMLElement;
-  private chart: any;
-  private innerOptions: any;
+  @Input() ltAutoResize = true;
 
   private resize$ = new BehaviorSubject<any>(null);
   private resizeSubscrition$: Subscription;
