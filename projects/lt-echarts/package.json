@@ -1,6 +1,25 @@
 {
   "name": "lt-echarts",
   "version": "0.0.1",
+  "description": "provide a component for echarts in angular",
+  "author": {
+    "name": "mystic",
+    "email": "cdllqos@outlook.com"
+  },
+  "repository": {
+    "url": "https://github.com/cdllqos/ng-echarts.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/cdllqos/ng-echarts/issues"
+  },
+  "keywords": [
+    "angular",
+    "angular7",
+    "echarts",
+    "typescript"
+  ],
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^7.0.0",
     "@angular/core": "^7.0.0",
