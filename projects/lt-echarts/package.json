@@ -1,6 +1,6 @@
 {
   "name": "lt-echarts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "provide a component for echarts in angular",
   "author": {
     "name": "mystic",
@@ -15,6 +15,9 @@
   },
   "keywords": [
     "angular",
+    "angular2",
+    "angular4",
+    "angular6",
     "angular7",
     "echarts",
     "typescript"
