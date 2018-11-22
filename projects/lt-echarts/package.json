@@ -1,6 +1,6 @@
 {
   "name": "lt-echarts",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "description": "provide a component for echarts in angular",
   "author": {
     "name": "mystic",
@@ -21,8 +21,6 @@
   ],
   "license": "MIT",
   "peerDependencies": {
-    "@angular/common": "^6.x",
-    "@angular/core": "^6.x",
-    "echarts": "^3.6.x"
+    "echarts": "^3.6.x || ^4.0.0"
   }
 }
