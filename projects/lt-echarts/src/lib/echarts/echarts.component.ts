@@ -61,6 +61,8 @@ export class EchartsComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    this.resizeSubscrition$.unsubscribe();
+    if (this.resizeSubscrition$) {
+      this.resizeSubscrition$.unsubscribe();
+    }
   }
 }
